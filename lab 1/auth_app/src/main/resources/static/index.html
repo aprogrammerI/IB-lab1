@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lab Auth (Spring Boot)</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="container">
+  <h1>Lab: Basic Registration & Authentication</h1>
+
+  <section id="register">
+    <h2>Register</h2>
+    <input id="r_username" placeholder="username"><br>
+    <input id="r_email" placeholder="email"><br>
+    <input id="r_password" placeholder="password" type="password"><br>
+    <button id="btnRegister">Register</button>
+    <div id="regMsg"></div>
+  </section>
+
+  <section id="login">
+    <h2>Login</h2>
+    <input id="l_username" placeholder="username"><br>
+    <input id="l_password" placeholder="password" type="password"><br>
+    <button id="btnLogin">Login</button>
+    <div id="loginMsg"></div>
+  </section>
+
+  <section id="profile" style="display:none;">
+    <h2>Profile</h2>
+    <div id="profileInfo"></div>
+    <button id="btnLogout">Logout</button>
+  </section>
+
+
+
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
